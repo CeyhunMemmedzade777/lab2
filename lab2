@@ -1,0 +1,7 @@
+a=7
+for x in (3,7,0.5):
+    if a*x<=20:
+        z=8*x+3*a
+    elif a*x>20:
+        z=4*x-2*a
+print(z)
